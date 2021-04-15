@@ -11,3 +11,15 @@ function init() {}
 
 // Function call to initialize app
 init();
+
+fdsjgiojfbnfd
+bfdnbf
+fdsjgiojfbnfdsdfg
+SVGFEDiffuseLightingElementbfb
+SVGAnimatedBooleanfds
+BaseAudioContextbdsf
+BaseAudioContextfb
+SharedArrayBuffersdfb
+dsfb
+dsbsd
+BaseAudioContextbdsfb
