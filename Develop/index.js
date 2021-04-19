@@ -15,7 +15,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'name',
+        name: 'title',
         message: 'What is your projects name?'
     },
     {
@@ -43,7 +43,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'repo',
+        name: 'usage',
         message: 'What does the user need to know about using the repo?'
     },
     {
