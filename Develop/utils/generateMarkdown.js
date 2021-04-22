@@ -47,11 +47,15 @@ ${desc}
 
 To install necessary dependencies, run the following command:
 
+${install}
+
 ## Usage
 
 ${usage}
 
-renderLicenseSection();
+## License
+
+This projects is licensed under ${license} license.
 
 ## Contributing
 
@@ -59,18 +63,14 @@ ${contr}
 
 ## Tests
 
+To run tests, run the following command:
+
 ${tests}
-
-## Install
-
-${install}
     
 ## Questions 
 
-For any questions, contact me through my GitHub:${github} or at my email:${email}.
-
-${license}
-  `;
+If you have any questions about the repo, open an issue or contact me directly at ${email}. You can find more of my work at ${github}.
+`;
 }
 
 module.exports = generateMarkdown;
