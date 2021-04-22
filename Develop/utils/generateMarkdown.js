@@ -28,48 +28,48 @@ function generateMarkdown(data) {
   const{github, email, title, desc, license, install, tests, usage, contr} = data;
 
   return `
-    # ${title}
-    ---
-    ## Description
+# ${title}
+---
+## Description
 
-    ${desc}
+${desc}
 
-    ## Table of Contents
+## Table of Contents
 
-    [Installation](${install})
-    [Usage](${usage})
-    [License](${license})
-    [Contributing](${contr})
-    [Test](${tests})
-    [Questions](${github})
+[Installation](${install})
+[Usage](${usage})
+[License](${license})
+[Contributing](${contr})
+[Test](${tests})
+[Questions](${github})
 
-    ## Installation
+## Installation
 
-    To install necessary dependencies, run the following command:
+To install necessary dependencies, run the following command:
 
-    ## Usage
+## Usage
 
-    ${usage}
+${usage}
 
-    renderLicenseSection();
+renderLicenseSection();
 
-    ## Contributing
+## Contributing
 
-    ${contr}
+${contr}
 
-    ## Tests
+## Tests
 
-    ${tests}
+${tests}
 
-    ## Install
+## Install
 
-    ${install}
+${install}
     
-    ## Questions 
+## Questions 
 
-    For any questions, contact me through my ${github} or at ${email}.
+For any questions, contact me through my GitHub:${github} or at my email:${email}.
 
-    ${license}
+${license}
   `;
 }
 

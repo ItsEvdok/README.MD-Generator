@@ -2,6 +2,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
+const { resolve } = require('path');
+const { rejects } = require('assert');
 // TODO: Create an array of questions for user input
 
 const promptUser = () => {
@@ -63,16 +65,28 @@ const promptUser = () => {
     .then(pageRead => {
         console.log(pageRead);
         console.log('Making readme');
-        return writeToFile('.README.md',pageRead);
+        return writeFile(pageRead);
     });
 };
 
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    fs.writeToFile(fileName, data);
-}
+const writeFile = fileContent => {
+    return new Promise((resolve, reject) => {
+        fs.writeFile('./dist/README.md', fileContent, err => {
+            if(err) {
+                reject(err);
+                return;
+            }
+
+            resolve({
+                ok: true,
+                message: 'File created!'
+            });
+        });
+    });
+};
 
 // TODO: Create a function to initialize app
 function init() {
