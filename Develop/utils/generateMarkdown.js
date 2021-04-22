@@ -63,9 +63,8 @@ function generateMarkdown(data) {
 
     ## Install
 
-    ```
     ${install}
-    ```
+    
     ## Questions 
 
     For any questions, contact me through my ${github} or at ${email}.

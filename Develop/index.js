@@ -63,7 +63,7 @@ const promptUser = () => {
     .then(pageRead => {
         console.log(pageRead);
         console.log('Making readme');
-        return writeToFile('.README.md',pageRead, data);
+        return writeToFile('.README.md',pageRead);
     });
 };
 
