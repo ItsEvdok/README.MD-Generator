@@ -1,44 +1,43 @@
 
-# README Generator
+# Dump Trucks R Us
 ---
 ## Description
 
-Generates a README file based off of user inputs
+Anything and everything about those dump trucks that we all love
 
 ## Table of Contents
 
 [Installation](npm i)
-[Usage](How to use Node.js)
-[License](GPL-3.0)
-[Contributing](Nothing)
+[Usage](What is a dump truck duh)
+[License](APACHE 2.0)
+[Contributing](You cant silly)
 [Test](npm tests)
-[Questions](ItsEvdok)
+[Questions](BigOlDumpTruck)
 
 ## Installation
 
 To install necessary dependencies, run the following command:
 
+npm i
+
 ## Usage
 
-How to use Node.js
+What is a dump truck duh
 
-renderLicenseSection();
+## License
+
+This projects is licensed under APACHE 2.0 license.
 
 ## Contributing
 
-Nothing
+You cant silly
 
 ## Tests
 
+To run tests, run the following command:
+
 npm tests
-
-## Install
-
-npm i
     
 ## Questions 
 
-For any questions, contact me through my GitHub:ItsEvdok or at my email:semionaevdokimov@icloud.com.
-
-GPL-3.0
-  
+If you have any questions about the repo, open an issue or contact me directly at sillythiccdumptruck@yahoo.com. You can find more of my work at BigOlDumpTruck.
