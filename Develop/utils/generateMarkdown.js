@@ -24,7 +24,7 @@ function renderLicenseSection(license) {
   if(license === 'none') {
     return '';
   } else {
-    return `[![License]${renderLicenseBadge(license)}](${renderLicenseLink(license)})`
+    return `[![GitHub license]${renderLicenseBadge(license)}](${renderLicenseLink(license)})`
   }
 }
 

@@ -1,7 +1,7 @@
 
-# fsd
+# 
 ---
-[![License](https://img.shields.io/badge/MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![GitHub license](https://img.shields.io/badge/MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ## Description
 
 ## Table of Contents
@@ -31,4 +31,4 @@ npm tests
     
 ## Questions 
 
-If you have any questions about the repo, open an issue or contact me directly at fsd. You can find more of my work at @fds.
+If you have any questions about the repo, open an issue or contact me directly at . You can find more of my work at @.
