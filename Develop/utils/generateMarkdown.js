@@ -4,7 +4,7 @@ function renderLicenseBadge(license) {
   if(!license){
     return '';
   } else {
-    return `https://img.shields.io/badge/${license}-<MESSAGE>-<COLOR>`
+    return `https://img.shields.io/badge/${license}-blue.svg`
   }
 }
 
@@ -14,13 +14,19 @@ function renderLicenseLink(license) {
   if(!license){
     return '';
   } else {
-    return 
+    return `https://opensource.org/licenses/${license}`
   }
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if(!license) {
+    return '';
+  } else {
+    return `[![GitHub License]${renderLicenseBadge(license)}]`
+  }
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -30,35 +36,30 @@ function generateMarkdown(data) {
   return `
 # ${title}
 ---
+${renderLicenseSection(license)}
 ## Description
-
 ${desc}
 
 ## Table of Contents
 
-[Installation](${install})
-[Usage](${usage})
-[License](${license})
-[Contributing](${contr})
-[Test](${tests})
-[Questions](${github})
+[Installation]
+[Usage]
+[License]
+[Contributing]
+[Test]
+[Questions]
 
 ## Installation
-
 To install necessary dependencies, run the following command:
-
 ${install}
 
 ## Usage
-
 ${usage}
 
 ## License
-
-This projects is licensed under ${license} license.
+This projects is licensed under ${renderLicenseLink(license)} license.
 
 ## Contributing
-
 ${contr}
 
 ## Tests
