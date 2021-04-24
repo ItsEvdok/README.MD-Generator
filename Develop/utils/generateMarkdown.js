@@ -1,17 +1,17 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if(!license){
+  if(license === 'none'){
     return '';
   } else {
-    return `https://img.shields.io/badge/${license}-blue.svg`
+    return `(https://img.shields.io/badge/${license}-blue.svg)`
   }
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if(!license){
+  if(license === 'none'){
     return '';
   } else {
     return `https://opensource.org/licenses/${license}`
@@ -21,10 +21,10 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if(!license) {
+  if(license === 'none') {
     return '';
   } else {
-    return `[![GitHub License]${renderLicenseBadge(license)}]`
+    return `[![GitHub License]${renderLicenseBadge(license)}]${renderLicenseLink(license)}`
   }
 }
 
@@ -39,16 +39,13 @@ function generateMarkdown(data) {
 ${renderLicenseSection(license)}
 ## Description
 ${desc}
-
 ## Table of Contents
-
 [Installation]
 [Usage]
 [License]
 [Contributing]
 [Test]
 [Questions]
-
 ## Installation
 To install necessary dependencies, run the following command:
 ${install}
@@ -57,8 +54,7 @@ ${install}
 ${usage}
 
 ## License
-This projects is licensed under ${renderLicenseLink(license)} license.
-
+This projects is licensed under the ${license} license.
 ## Contributing
 ${contr}
 
@@ -70,7 +66,7 @@ ${tests}
     
 ## Questions 
 
-If you have any questions about the repo, open an issue or contact me directly at ${email}. You can find more of my work at ${github}.
+If you have any questions about the repo, open an issue or contact me directly at ${email}. You can find more of my work at @${github}.
 `;
 }
 

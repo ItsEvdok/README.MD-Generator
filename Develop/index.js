@@ -33,7 +33,7 @@ const promptUser = () => {
             type: 'list',
             name: 'license',
             message: 'What kind of license should your project have? (Use arrow keys)',
-            choices: ['MIT', 'APACHE 2.0', 'GPL-3.0', 'BSD-3-clause', 'None']
+            choices: ['MIT', 'APACHE-2.0', 'GPL-3.0', 'BSD-3-Clause', 'None']
         },
         {
             type: 'input',
