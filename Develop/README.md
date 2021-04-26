@@ -1,11 +1,11 @@
 
-# Testing
+# README Generator
 ---
 [![GitHub license](https://img.shields.io/badge/MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-Testing one two testing
+Generates a README file based on user inputs from the terminal using node
 
 ## Table of Contents
 
@@ -29,7 +29,7 @@ To install necessary dependencies, run the following command:
 
 ## Usage
 
-Nothing
+How to use Node
 
 ## License
 
