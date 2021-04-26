@@ -38,11 +38,11 @@ function generateMarkdown(data) {
 ---
 ${renderLicenseSection(license)}
 
-##Description
+## Description
 
 ${desc}
 
-##Table of Contents
+## Table of Contents
 
 [Installation](#installation)
 
@@ -56,30 +56,30 @@ ${desc}
 
 [Questions](#questions)
 
-##Installation
+## Installation
 
 To install necessary dependencies, run the following command:
 
     ${install}
 
-##Usage
+## Usage
 
 ${usage}
 
-##License
+## License
 
 This projects is licensed under the ${license} license.
 
 ## Contributing
 ${contr}
 
-##Tests
+## Tests
 
 To run tests, run the following command:
 
     ${tests}
     
-##Questions 
+## Questions 
 
 If you have any questions about the repo, open an issue or contact me directly at ${email}. You can find more of my work at ${github}.
 `;
