@@ -1,11 +1,9 @@
 
-# README Generator
+# Team Profile Generator
 ---
-[![GitHub license](https://img.shields.io/badge/MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
 ## Description
 
-Generates a README file based on user inputs from the terminal using node
+Based on user inputs, generators an HTML page containing team members.
 
 ## Table of Contents
 
@@ -29,21 +27,11 @@ To install necessary dependencies, run the following command:
 
 ## Usage
 
-How to use Node
+User needs to know how to work with Node and basic Inquirer Inputs.
 
 ## License
 
-This projects is licensed under the MIT license.
-
-## Contributing
-Nothing
-
-## Tests
-
-To run tests, run the following command:
-
-    npm tests
-    
+This projects is licensed under the None license.
 ## Questions 
 
 If you have any questions about the repo, open an issue or contact me directly at semionaevdokimov@icloud.com. You can find more of my work at ItsEvdok.
