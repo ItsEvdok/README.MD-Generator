@@ -1,9 +1,11 @@
 
-# Team Profile Generator
+# fsdfds
 ---
+
+
 ## Description
 
-Based on user inputs, generators an HTML page containing team members.
+fsdfsd
 
 ## Table of Contents
 
@@ -27,11 +29,21 @@ To install necessary dependencies, run the following command:
 
 ## Usage
 
-User needs to know how to work with Node and basic Inquirer Inputs.
+fsdf
 
 ## License
 
 This projects is licensed under the None license.
+
+## Contributing
+fdsfs
+
+## Tests
+
+To run tests, run the following command:
+
+    npm tests
+    
 ## Questions 
 
-If you have any questions about the repo, open an issue or contact me directly at semionaevdokimov@icloud.com. You can find more of my work at ItsEvdok.
+If you have any questions about the repo, open an issue or contact me directly at fdsfs. You can find more of my work at fsdf.
