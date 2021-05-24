@@ -1,11 +1,11 @@
 
-# Employee-Tracker
+# E-Commerce-Backend
 ---
 
 
 ## Description
 
-Inquirer/SQL based application to keep track and manage your employees. With the abilities to View all employees, all roles, and all departments. Also have the abilities to ADD new employees, roles and departments which are then inserted into a SQL database, all from the inputs of inquirer.prompt.
+Using Node, Express, and Sequalize. I created back end routes that access a SQL database using Express and Sequalize, the routes utilize all CRUD methods to communicate with the database.
 
 ## Table of Contents
 
@@ -14,10 +14,6 @@ Inquirer/SQL based application to keep track and manage your employees. With the
 [Usage](#usage)
 
 [License](#license)
-
-[Contributing](#contributing)
-
-[Test](#test)
 
 [Questions](#questions)
 
@@ -29,21 +25,12 @@ To install necessary dependencies, run the following command:
 
 ## Usage
 
-How to use the Inquirer package.
+How to start a server with express.
 
 ## License
 
 This projects is licensed under the None license.
-
-## Contributing
-You cannot, teehee :)
-
-## Tests
-
-To run tests, run the following command:
-
-    npm tests
     
 ## Questions 
 
-If you have any questions about the repo, open an issue or contact me directly at semionaevdokimov@icloud.com. You can find more of my work at ItsEvdok.
+If you have any questions about the repo, open an issue or contact me directly at semionaevdokimov@gmail.com. You can find more of my work at ItsEvdok.
