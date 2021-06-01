@@ -1,19 +1,23 @@
 
-# E-Commerce-Backend
+# The_Tech_Blog
 ---
 
 
 ## Description
 
-Using Node, Express, and Sequalize. I created back end routes that access a SQL database using Express and Sequalize, the routes utilize all CRUD methods to communicate with the database.
+A small scale social media site where users can sign up, login, make/edit/delete posts, view other users posts and also leave comments.
 
 ## Table of Contents
 
 [Installation](#installation)
 
+[Tech](#tech)
+
 [Usage](#usage)
 
 [License](#license)
+
+[Contributing](#contributing)
 
 [Questions](#questions)
 
@@ -23,14 +27,20 @@ To install necessary dependencies, run the following command:
 
     npm i
 
+## Tech
+
+HTML, CSS, JavaScript, Node.js, mySQL, sequelize, sessions.
 ## Usage
 
-How to start a server with express.
+How to use Node, and how to set up a connections to a mySQL database.
 
 ## License
 
-This projects is licensed under the None license.
+This projects is not licensed.
+
+## Contributing
+You cant teehee :)
     
 ## Questions 
 
-If you have any questions about the repo, open an issue or contact me directly at semionaevdokimov@gmail.com. You can find more of my work at ItsEvdok.
+If you have any questions about the repo, open an issue or contact me directly at semionaevdokimov@icloud.com. You can find more of my work at ItsEvdok.
