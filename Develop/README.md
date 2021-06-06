@@ -1,23 +1,23 @@
 
-# The_Tech_Blog
+# StayBuzzin.net
 ---
 
 
 ## Description
 
-A small scale social media site where users can sign up, login, make/edit/delete posts, view other users posts and also leave comments.
+A simple social media application where users can signup, edit their profiles by adding bios, their location, birthday and even uploading a profile picture! Users also have the ability to make posts, edit them, and see all other users posts on the homepage where they can add comments.
 
 ## Table of Contents
 
 [Installation](#installation)
-
-[Tech](#tech)
 
 [Usage](#usage)
 
 [License](#license)
 
 [Contributing](#contributing)
+
+[Test](#test)
 
 [Questions](#questions)
 
@@ -27,19 +27,22 @@ To install necessary dependencies, run the following command:
 
     npm i
 
-## Tech
-
-HTML, CSS, JavaScript, Node.js, mySQL, sequelize, sessions.
 ## Usage
 
-How to use Node, and how to set up a connections to a mySQL database.
+How to navigate through mySQL, and how to use Node.js
 
 ## License
 
-This projects is not licensed.
+This projects is licensed under the None license.
 
 ## Contributing
-You cant teehee :)
+Nothing
+
+## Tests
+
+To run tests, run the following command:
+
+    npm tests
     
 ## Questions 
 
