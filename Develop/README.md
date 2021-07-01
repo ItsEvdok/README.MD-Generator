@@ -1,11 +1,11 @@
 
-# StayBuzzin.net
+# NoSQL-SocialNet-API
 ---
 
 
 ## Description
 
-A simple social media application where users can signup, edit their profiles by adding bios, their location, birthday and even uploading a profile picture! Users also have the ability to make posts, edit them, and see all other users posts on the homepage where they can add comments.
+Node, Express and Mongoose API for a social website, allows for Users to be created, updated, deleted, also allows Users to add other Users, make/update/delete posts(Thoughts), and add reactions on individual thoughts.
 
 ## Table of Contents
 
@@ -29,14 +29,14 @@ To install necessary dependencies, run the following command:
 
 ## Usage
 
-How to navigate through mySQL, and how to use Node.js
+
 
 ## License
 
 This projects is licensed under the None license.
 
 ## Contributing
-Nothing
+
 
 ## Tests
 
